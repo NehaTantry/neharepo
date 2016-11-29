@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ 
+a {
+  color: #00B7FF;
+}
+
+.class1  {
+	text-align: center;
+	font-size: 50px;
+	animation-name: example;
+	background-color: green;
+	animation-duration: 10s;
+	position: relative;
+	animation-iteration-count: 6;
+	padding: 7% 7%;
+	position: relative;
+}
+@keyframes example {
+	0%{background-color: green; left:10px; top:0px; }
+	 25%{background-color: yellow; left 200px; top: 0px;}
+	 50%{background-color: blue; left 400px; top: 0px;}
+	 100%{background-color: red; left 300px; top: 0px;}
+}
+.center {
+	position: absolute;;
+	transform: translate(-50% , -50%);
+}
